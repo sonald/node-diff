@@ -1,0 +1,18 @@
+{
+  "name": "node-diff",
+  "version": "0.1.0",
+  "description": "diff written in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "diff"
+  ],
+  "author": "Sian Cao <yinshuiboy@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "linestream": "git://github.com/sonald/linestream.git#master"
+  }
+}

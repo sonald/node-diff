@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var diff = require('../').diff,
+    util = require('util');
+
+
+if (process.argv.length == 4) {
+    diff(process.argv[2], process.argv[3]);
+} else {
+    console.log(util.format("%s: file1 file2", process.argv[0]));
+}
